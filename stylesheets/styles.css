@@ -28,6 +28,8 @@ h1 {
 h2 {
   color:#393939;
   font-weight: 500;
+  padding-bottom: 5px; 
+  border-bottom: 1px solid #e0e0e0;
 }
 
 h3, h4, h5, h6 {
@@ -35,8 +37,16 @@ h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+#dream em {
+  font-weight: bold;
+}
+
+#work-exp li{
+  padding-bottom:10px;
+}
+
 a {
-  color:#39c;
+  color:#224b8d;
   text-decoration:none;
 }
 
@@ -116,6 +126,8 @@ header .avatar{
   margin-bottom: 5px;
   border-top:2px solid #e5e5e5;
   border-bottom:2px solid #e5e5e5;
+  width: 100%;
+  font-size: 12px;
 }
 
 header ul {
