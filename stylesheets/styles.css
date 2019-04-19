@@ -98,7 +98,7 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  /* border-bottom:1px solid #e5e5e5; */
 }
 
 dt {
@@ -112,6 +112,11 @@ th {
 
 img {
   max-width:100%;
+}
+
+.paper-img {
+  width:200px;
+  box-shadow: 4px 4px 8px #888;
 }
 
 header {
