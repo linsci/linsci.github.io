@@ -216,8 +216,6 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
-  top: 550px;
-  z-index: -1;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -227,6 +225,13 @@ header ul {
 
 header li, header ul li + li + li  + li{
   width:24%;
+}
+
+@media print, screen and (max-height: 700px) {
+  footer {
+    top: 550px;
+    z-index: -1;
+  }
 }
 
 @media print, screen and (max-width: 960px) {
